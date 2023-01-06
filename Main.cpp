@@ -1,14 +1,12 @@
-#include "Header.h"
+#include "Controller.h"
+
 int main()
 {
-	Task task(0,0,true);
-
-	task.taskA();
-	task.taskB();
-	task.taskC();
-	task.taskD();
-	task.taskE();
-	task.taskF();
-
+	Controller::init();
+	
+	while (true)
+	{
+		Controller::update();
+	}
 	return 0;
 }
