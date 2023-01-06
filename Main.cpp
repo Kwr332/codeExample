@@ -1,14 +1,14 @@
 #include "Header.h"
 int main()
 {
-	zadanie zadanie(0,0,true);
+	Task task(0,0,true);
 
-	zadanie.zadanieA();
-	zadanie.zadanieB();
-	zadanie.zadanieC();
-	zadanie.zadanieD();
-	zadanie.zadanieE();
-	zadanie.zadanieF();
+	task.taskA();
+	task.taskB();
+	task.taskC();
+	task.taskD();
+	task.taskE();
+	task.taskF();
 
 	return 0;
 }

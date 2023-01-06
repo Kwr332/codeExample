@@ -1,10 +1,10 @@
 #include "Header.h"
 
-void zadanie::setTable(int* size)
+void Task::setTable(int* size)
 {
 	int** tab, n = 0;
 
-	std::cout << "Podaj liczbe wierszy i kolumn: ";
+	std::cout << "Please provide the number of rows and colums: ";
 	std::cin >> n;
 	*size = (2 * n) - 1;
 
@@ -13,7 +13,7 @@ void zadanie::setTable(int* size)
 		tab[i - 1] = new int[*size];
 }
 
-void zadanie::zadanieA()
+void Task::taskA()
 {
 	setTable(&size);
 
@@ -35,7 +35,7 @@ void zadanie::zadanieA()
 	}
 }
 
-void zadanie::zadanieB()
+void Task::taskB()
 {
 	setTable(&size);
 	border = 0;
@@ -58,7 +58,7 @@ void zadanie::zadanieB()
 	}
 }
 
-void zadanie::zadanieC()
+void Task::taskC()
 {
 	setTable(&size);
 	border = size;
@@ -81,7 +81,7 @@ void zadanie::zadanieC()
 	}
 }
 
-void zadanie::zadanieD()
+void Task::taskD()
 {
 	setTable(&size);
 
@@ -110,7 +110,7 @@ void zadanie::zadanieD()
 	}
 }
 
-void zadanie::zadanieE()
+void Task::taskE()
 {
 	setTable(&size);
 
@@ -132,7 +132,7 @@ void zadanie::zadanieE()
 	}
 }
 
-void zadanie::zadanieF()
+void Task::taskF()
 {
 	setTable(&size);
 

@@ -2,22 +2,22 @@
 
 #include <iostream>
 
-class zadanie
+class Task
 {
 public:
-	zadanie(int size, int border, bool isSecond) :
+	Task(int size, int border, bool isSecond) :
 		size(size),
 		border(border),
 		isSecond(isSecond) 
 		{};
 
 	void setTable(int* size);
-	void zadanieA();
-	void zadanieB();
-	void zadanieC();
-	void zadanieD();
-	void zadanieE();
-	void zadanieF();
+	void taskA();
+	void taskB();
+	void taskC();
+	void taskD();
+	void taskE();
+	void taskF();
 
 	int getSize() { return size; }
 	int getBorder() { return border; }
