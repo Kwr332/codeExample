@@ -1,14 +1,12 @@
-#include "Header.h"
+#include "Controller.h"
+
 int main()
 {
-	zadanie zadanie(0,0,true);
-
-	zadanie.zadanieA();
-	zadanie.zadanieB();
-	zadanie.zadanieC();
-	zadanie.zadanieD();
-	zadanie.zadanieE();
-	zadanie.zadanieF();
-
+	Controller::init();
+	
+	while (true)
+	{
+		Controller::update();
+	}
 	return 0;
 }
